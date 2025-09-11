@@ -1,12 +1,8 @@
 import './RecipeCard.css'
 
-const Card =(props)=>{
-    const {childern} = props
-    return<div className="card">
-            {childern}
-        </div>
-        
-    
+const Card = (props) => {
+    const {children} = props
+    return <div className='card'>{children}</div>
 }
-export default Card
 
+export default Card
