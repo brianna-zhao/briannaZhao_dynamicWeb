@@ -1,0 +1,53 @@
+:root{
+    --heart-size: 24px;   
+    --heart-gap: 6px;    
+  }
+  
+  .rating-page{
+    padding-top: 40px;
+  }
+  
+  .rating-row{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+  }
+  
+  .btn, .btn-spacer{
+    width: 40px;
+    height: 36px;
+    border-radius: 8px;
+  }
+  
+  .btn{
+    border: 1px solid #ddd;
+    background: #7dd7e3;
+    cursor: pointer;
+  }
+  
+  .btn-spacer{
+    display: inline-block;
+  }
+  
+  .btn.plus, .btn-spacer.plus{
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  
+  .hearts{
+    display: grid;
+    grid-template-columns: repeat(5, var(--heart-size));
+    column-gap: var(--heart-gap);
+    align-items: center;
+    color: rgb(243, 144, 188);
+
+    width: 144px;
+  }
+  
+  .heart-icon{
+    width: var(--heart-size);
+    height: var(--heart-size);
+    color: rgb(243, 144, 188);
+  }
+  
